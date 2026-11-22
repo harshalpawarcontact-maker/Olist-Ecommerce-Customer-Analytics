@@ -1,0 +1,23 @@
+# Python environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor/system files
+.vscode/
+.DS_Store
+Thumbs.db
+olist_geolocation_dataset.csv
+cleaned_data/olist_geolocation_dataset.csv
+# Python build artifacts
+*.pyo
+*.pyd
+# Dataset files - keep locally, exclude from GitHub
+*.csv
